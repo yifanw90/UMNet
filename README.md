@@ -1,5 +1,5 @@
 # UMNet
-The Pytorch implementation of CVPR2022 paper “Multi-Source Uncertainty Mining for Deep Unsupervised Saliency Detection”
+The Pytorch implementation of CVPR2022 paper [Multi-Source Uncertainty Mining for Deep Unsupervised Saliency Detection](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Multi-Source_Uncertainty_Mining_for_Deep_Unsupervised_Saliency_Detection_CVPR_2022_paper.pdf)
 
 # Trained Model，Test Data and Results
 
