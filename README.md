@@ -27,3 +27,8 @@ Please download the trained model, test data and SOD results from [Baidu Cloud](
 4. Run [compute_score.py](https://github.com/yifanw90/UMNet/blob/main/compute_score.py) to obtain the evaluation scores of the predictions in terms of MAE, Fmax, Sm, and Em.  The evaluation codes are referred from  https://github.com/Xiaoqi-Zhao-DLUT/GateNet-RGB-Saliency.  
 5. Please be sure that the paths of ground truth and predictions are valid in [compute_score.py](https://github.com/yifanw90/UMNet/blob/main/compute_score.py).
 
+
+# Train
+Note: Our method is trained mainly following the same setting of [DeepUSPS](https://github.com/sally20921/DeepUSPS). We use MSRA-B 2500 training data for network training.
+1. Four traditional SOD methods including MC, HS, DSR, and RBD are adopted to generate pseudo labels for the training data, which are refined using the first stage of DeepUSPS. 
+2. The four kinds of refined pseudo labels are used for multi-source network learning using our [training code](https://pan.baidu.com/s/18Xsq7MJ_hCNNCLM5Eyxt0g?pwd=a4hh) (extract code: a4hh).
